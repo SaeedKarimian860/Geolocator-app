@@ -38,7 +38,6 @@ export default function App() {
 
   const [countClicks, setCountClicks] = useState(0);
 
-  
   function handleClick() {
     setCountClicks((count) => count + 1);
     getPosition();
